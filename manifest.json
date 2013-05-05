@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Yuan ADBlock",
+  "description": "Block annoying ADs for you.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["jquery-1.9.1.min.js", "block.js"]
+    },
+    {
+        "matches": ["http://*.e-club.cn/*"],
+        "js": ["jquery-1.9.1.min.js", "activepower.net.js"]
+    }
+  ]
+}
