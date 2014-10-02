@@ -29,6 +29,13 @@
       "http://27.195.146.139/videos/other/*",
       // HAHAHAHAHA
       "http://data.video.qiyi.com/videos/other/*",
-      
       ]},
     ["blocking"]);
+    
+    // Block ifeng Ad
+    chrome.webRequest.onBeforeRequest.addListener(
+        function(details) {
+          return {cancel: details.url.indexOf("http://pubads.g.doubleclick.net/") != -1};
+        },
+        {urls: ["<all_urls>"]},
+        ["blocking"]);
