@@ -21,6 +21,10 @@
     {
         "matches": ["http://*.e-club.cn/*"],
         "js": ["jquery-1.9.1.min.js", "activepower.net.js"]
+    },
+    {
+      "matches": ["http://*.iciba.com/*"],
+      "css": ["iciba.com.css"]
     }
   ]
 }
