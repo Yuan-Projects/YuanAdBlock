@@ -25,6 +25,10 @@
     {
       "matches": ["http://*.iciba.com/*"],
       "css": ["iciba.com.css"]
+    },
+    {
+      "matches": ["http://mail.163.com/*"],
+      "css": ["mail.163.com.css"]
     }
   ]
 }
