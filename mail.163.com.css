@@ -1,0 +1,19 @@
+.gWel-promt,
+.gWel-tabs-panel,
+.gWel-weather-promote,
+.gWel-tabs-promt,
+.gWel-avatar,
+.gWel-greet,
+.gWel-tabs-list,
+#dvYixinWrapper,
+.rZ0:nth-child(2),
+.rZ0:nth-child(3),
+.rZ0:nth-child(4),
+li[title="一元夺宝"],
+#dvNavTree ul li:last-child{
+  display: none !important;
+}
+
+.gWel-top-hasAvatar {
+  padding-left: 25px !important;
+}
