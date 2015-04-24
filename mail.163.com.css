@@ -1,19 +1,58 @@
+/* ADs*/
 .gWel-promt,
-.gWel-tabs-panel,
 .gWel-weather-promote,
-.gWel-tabs-promt,
-.gWel-avatar,
-.gWel-greet,
-.gWel-tabs-list,
-#dvYixinWrapper,
-.rZ0:nth-child(2),
-.rZ0:nth-child(3),
-.rZ0:nth-child(4),
-li[title="一元夺宝"],
-#dvNavTree ul li:last-child{
+.js-component-component.nui-tree-item.En0,
+.gWel-tabs-promt {
   display: none !important;
 }
 
-.gWel-top-hasAvatar {
-  padding-left: 25px !important;
+/* Make Main Div higher */
+.gWel-inner {
+  min-height: 300px;
+}
+
+/* The bottom area is useless */
+.gWel-bottom {
+  display: none !important;
+}
+
+/* Bye Lofter */
+.gWel-mailInfo-lofter {
+  display: none !important;
+}
+
+/* Bye Yixin */
+#dvYixinWrapper {
+  display: none !important;
+}
+
+/* Top Ad */
+ul[role="navigation"].js-component-component li {
+  display: none !important;
+}
+ul[role="navigation"].js-component-component li:first-child ,
+#_mail_component_19_19,
+#_mail_component_22_22,
+#_mail_component_24_24,
+#_mail_component_27_27,
+#_mail_component_29_29 {
+  display: initial !important;
+}
+
+/* 1 Yuan */
+ul[role="tablist"] li:nth-last-child(2){
+  display: none !important;
+}
+
+/* AD Slider */
+div.mod-picSlider-warper {
+  display: none !important;
+}
+.m-Content {
+  padding-top: 0 !important;
+}
+
+/* APP Rank */
+section.frame-main-side  > div.m-sideCont:last-child {
+  display: none !important;
 }
