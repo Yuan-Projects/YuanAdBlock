@@ -1,5 +1,5 @@
 {
-  "manifest_version": 4,
+  "manifest_version": 5,
   "name": "Yuan AdBlock",
   "description": "Block annoying ADs for you.",
   "version": "1.0",
@@ -8,27 +8,12 @@
     "webRequestBlocking",
     "http://*/*"
   ],
-  
-  "background": {
-    "scripts": ["background.js"]
-  },
 
   "content_scripts": [
     {
-        "matches": ["http://*/*", "https://*/*"],
-        "js": ["jquery-1.9.1.min.js", "block.js"]
-    },
-    {
-        "matches": ["http://*.e-club.cn/*"],
-        "js": ["jquery-1.9.1.min.js", "activepower.net.js"]
-    },
-    {
-      "matches": ["http://*.iciba.com/*"],
-      "css": ["iciba.com.css"]
-    },
-    {
       "matches": ["http://mail.163.com/*"],
-      "css": ["mail.163.com.css"]
+      "css": ["mail.163.com.css"],
+      "all_frames": true
     }
   ]
 }
