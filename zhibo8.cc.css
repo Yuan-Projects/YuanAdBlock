@@ -4,8 +4,11 @@ div[id^="BAIDU_DUP"],
 #bdshare,
 #top10,
 #right,
+#siderbar,
 .advertframe,
-.ad_left, .ad_right {
+.ad_left, .ad_right,
+#pl_box,
+#posts {
   display: none !important;
 }
 
@@ -18,6 +21,8 @@ div[id^="BAIDU_DUP"],
 #left  > *,
 #body #left .box .content,
 #body #left .box .content ul,
-#body #left .box .content ul li {
+#body #left .box .content ul li ,
+#body #main,
+#body #main .box{
   width: 100% !important;
 }
