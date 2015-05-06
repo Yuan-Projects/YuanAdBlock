@@ -1,6 +1,9 @@
 /* I don't need iframes */
 iframe,
 div[id^="BAIDU_DUP"],
+#bdshare,
+#top10,
+.advertframe,
 .ad_left, .ad_right {
   display: none !important;
 }
