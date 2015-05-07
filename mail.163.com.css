@@ -40,7 +40,7 @@ ul[role="navigation"].js-component-component li:first-child ,
 }
 
 /* 1 Yuan */
-ul[role="tablist"] li:nth-last-child(2){
+ul[role="tablist"] li[title="一元夺宝"]{
   display: none !important;
 }
 
