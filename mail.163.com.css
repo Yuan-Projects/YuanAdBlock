@@ -35,12 +35,13 @@ ul[role="navigation"].js-component-component li:first-child ,
 #_mail_component_22_22,
 #_mail_component_24_24,
 #_mail_component_27_27,
-#_mail_component_29_29 {
+ul[role="navigation"].js-component-component li:last-child  {
   display: initial !important;
 }
 
 /* 1 Yuan */
-ul[role="tablist"] li[title="一元夺宝"]{
+ul[role="tablist"] li[title="一元夺宝"],
+ul[role="tablist"] li[title="考拉海购"]{
   display: none !important;
 }
 
