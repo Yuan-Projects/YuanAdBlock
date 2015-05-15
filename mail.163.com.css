@@ -41,6 +41,7 @@ ul[role="navigation"].js-component-component li:last-child  {
 
 /* 1 Yuan */
 ul[role="tablist"] li[title="一元夺宝"],
+ul[role="tablist"] li[title="网易秀品"],
 ul[role="tablist"] li[title="考拉海购"]{
   display: none !important;
 }
