@@ -46,6 +46,10 @@ ul[role="tablist"] li[title="考拉海购"]{
   display: none !important;
 }
 
+.gWel-mailInfo-jifen {
+  display: none !important;
+}
+
 /* AD Slider */
 div.mod-picSlider-warper {
   display: none !important;
