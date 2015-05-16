@@ -18,6 +18,11 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://changyan.sohu.com/api*",
       "http://a1.itc.cn/pv/js/spv.*",
       "http://p.tanx.com/ex?*",
+      "http://pl.hd.sohu.com/recommend_frag?*",
+      "http://push.my.tv.sohu.com/getwebpush_sohuHD.globalNewPushTrigger.json?*",
+      "http://score.my.tv.sohu.com/digg/get.do?*",
+      "http://my.tv.sohu.com/user/card/static.json",
+      "http://so.tv.sohu.com/star/playStarV2?*",
     ]
   },
   ["blocking"]
