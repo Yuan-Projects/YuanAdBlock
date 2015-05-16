@@ -23,6 +23,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://score.my.tv.sohu.com/digg/get.do?*",
       "http://my.tv.sohu.com/user/card/static.json",
       "http://so.tv.sohu.com/star/playStarV2?*",
+      "http://p.aty.sohu.com/p?*",
     ]
   },
   ["blocking"]
