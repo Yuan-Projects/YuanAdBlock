@@ -13,6 +13,9 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://cpro.baidustatic.com/cpro/ui/c.js",
       "http://sohu.irs01.com/irt?*",
       "http://b.scorecardresearch.com/beacon.js",
+      "http://s.go.sohu.com/adgtr/?*",
+      "http://count.vrs.sohu.com/*",
+      "http://changyan.sohu.com/api*",
     ]
   },
   ["blocking"]
