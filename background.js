@@ -25,6 +25,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://so.tv.sohu.com/star/playStarV2?*",
       "http://p.aty.sohu.com/p?*",
       "http://pl.hd.sohu.com/videolist?*",
+      "http://hotvrs.js.tv.itc.cn/videoinfo/*",
     ]
   },
   ["blocking"]
