@@ -27,6 +27,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://pl.hd.sohu.com/videolist?*",
       "http://hotvrs.js.tv.itc.cn/videoinfo/*",
       "http://v.aty.sohu.com/vp?*",
+      "http://search.vrs.tv.sohu.com/p?*",
     ]
   },
   ["blocking"]
