@@ -8,6 +8,11 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://x.jd.com/exsites?*",
       // BAIDU 
       "http://eclick.baidu.com/fp.htm?*",
+      "http://pos.baidu.com/acom?*",
+      "http://pos.baidu.com/wh/o.htm?*",
+      "http://cpro.baidustatic.com/cpro/ui/c.js",
+      "http://sohu.irs01.com/irt?*",
+      "http://b.scorecardresearch.com/beacon.js",
     ]
   },
   ["blocking"]
