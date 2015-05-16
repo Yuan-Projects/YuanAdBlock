@@ -4,6 +4,8 @@ chrome.webRequest.onBeforeRequest.addListener(
     urls:[
       // SOHU TV AD
       "http://atanx.alicdn.com/t/tanxssp.js",
+      // JD AD
+      "http://x.jd.com/exsites?*",
     ]
   },
   ["blocking"]
