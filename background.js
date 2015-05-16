@@ -16,6 +16,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://s.go.sohu.com/adgtr/?*",
       "http://count.vrs.sohu.com/*",
       "http://changyan.sohu.com/api*",
+      "http://a1.itc.cn/pv/js/spv.*",
+      "http://p.tanx.com/ex?*",
     ]
   },
   ["blocking"]
