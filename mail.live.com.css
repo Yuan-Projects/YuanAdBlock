@@ -1,0 +1,6 @@
+.WithRightRail {
+  right: 0 !important;
+}
+#RightRailContainer {
+  display: none !important;
+}

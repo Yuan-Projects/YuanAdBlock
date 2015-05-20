@@ -34,6 +34,11 @@
       "all_frames": true
     },
     {
+      "matches": ["https://blu180.mail.live.com/*"],
+      "css": ["mail.live.com.css"],
+      "all_frames": true
+    },
+    {
       "matches": ["http://zhibo8.cc/*"],
       "css": ["zhibo8.cc.css"],
       "all_frames": true
