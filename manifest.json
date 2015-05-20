@@ -39,6 +39,11 @@
       "all_frames": true
     },
     {
+      "matches": ["http://caniuse.com/*"],
+      "css": ["caniuse.com.css"],
+      "all_frames": true
+    },
+    {
       "matches": ["http://zhibo8.cc/*"],
       "css": ["zhibo8.cc.css"],
       "all_frames": true
