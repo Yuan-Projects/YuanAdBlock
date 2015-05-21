@@ -14,8 +14,13 @@
 /* Right Widget */
 .pendant,
 #js_flash_ad,
+.header > div,
 .header_ad {
   display: none;
+}
+
+.headerC {
+  display: block !important;
 }
 
 .header {
