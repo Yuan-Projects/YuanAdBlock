@@ -44,6 +44,11 @@
       "all_frames": true
     },
     {
+      "matches": ["http://user.qzone.qq.com/*"],
+      "css": ["user.qzone.qq.com.css"],
+      "all_frames": true
+    },
+    {
       "matches": ["http://zhibo8.cc/*"],
       "css": ["zhibo8.cc.css"],
       "all_frames": true
