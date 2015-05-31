@@ -7,6 +7,10 @@
 a.qz-btn-vip-open,
 .head-avatar,
 .fn_accessLog_tips,
-#div_corner_ad_flash {
+#QM_Container_31,
+#tb_vip_li,
+li.f-single-biz,
+#qz-head-level,
+#div_corner_ad_container {
   display: none !important;
 }
