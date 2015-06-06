@@ -1,0 +1,13 @@
+.m-lmiddlead,
+#loftertextlinkad,
+#r_mkaolaadv,
+#r_m163news,
+#r_mlofteriframe,
+#topbar_lofterDldArea,
+#topbar_randShowArea,
+.m-fixedPCAd,
+.m-3 .nbw-ryt .left .nbw-bitm .tbar,
+.m-shareAndDownLoad,
+html #blog-163-com #blog-163-com-layer .postadlayer {
+  display: none !important;
+}
