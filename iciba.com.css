@@ -15,6 +15,7 @@
 .pendant,
 #js_flash_ad,
 .header > div,
+.group_prons:last-child,
 .header_ad {
   display: none;
 }
