@@ -28,6 +28,19 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://hotvrs.js.tv.itc.cn/videoinfo/*",
       "http://v.aty.sohu.com/vp?*",
       "http://search.vrs.tv.sohu.com/p?*",
+
+      // Google 
+      "http://partner.googleadservices.com/gpt/*",
+
+      "http://b.scorecardresearch.com/*",
+      "http://beacon.krxd.net/*",
+      "http://odb.outbrain.com/utils/get?*",
+      "http://secure-us.imrworldwide.com/cgi-bin/m?*",
+      "http://stats.bbc.co.uk/o.gif?*",
+      "http://sa.bbc.com/b/ss/bbcwglobalprod/*",
+      "http://ping.chartbeat.net/ping?*",
+      "http://sa.bbc.co.uk/bbc/bbc/s?*",
+      "http://static.chartbeat.com/js/chartbeat.js",
     ]
   },
   ["blocking"]
