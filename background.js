@@ -7,6 +7,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       // JD AD
       "http://x.jd.com/exsites?*",
       // BAIDU 
+      "http://hm.baidu.com/hm.js?*",
+      "http://hm.baidu.com/hm.gif?*",
       "http://eclick.baidu.com/fp.htm?*",
       "http://pos.baidu.com/acom?*",
       "http://pos.baidu.com/wh/o.htm?*",
