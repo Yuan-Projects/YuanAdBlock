@@ -54,6 +54,11 @@
       "all_frames": true
     },
     {
+      "matches": ["http://alistapart.com/*"],
+      "css": ["alistapart.css"],
+      "all_frames": true
+    },
+    {
       "matches": ["http://*.blog.163.com/*"],
       "css": ["blog.163.com.css"],
       "all_frames": true

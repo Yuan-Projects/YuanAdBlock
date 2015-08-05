@@ -1,0 +1,10 @@
+.sponsor-top,
+.content-minutiae,
+.utility-side-bar {
+  display: none !important;
+}
+
+.article-layout .main-content > p, .article-layout .main-content > pre, .article-layout .main-content > ol, .article-layout .main-content > ul, .article-layout .main-content > figure, .article-layout .main-content > div.illustration, .article-layout .main-content .entry-footnotes {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
