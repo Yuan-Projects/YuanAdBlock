@@ -29,6 +29,11 @@
       "all_frames": true
     },
     {
+      "matches": ["http://www.w3schools.com/*"],
+      "css": ["www.w3schools.com.css"],
+      "all_frames": true
+    },
+    {
       "matches": ["http://tv.sohu.com/*"],
       "css": ["tv.sohu.com.css"],
       "all_frames": true
