@@ -1,49 +1,13 @@
-/* Index Page AD */
-#indexads,
-/* Left Widget */
-#ezfm,
-/* TOP BAR */
-#iciba_common_top,
-/* Right Sidebar */
-#side_bar,
-/* Header Ad */
-.head_ad,
-/* Bottom Recommendation */
-.vRecomm,
-.search_foot,
-/* Right Widget */
-.pendant,
-#js_flash_ad,
-.header > div,
-.group_prons:last-child,
-.header_ad {
-  display: none;
+/* The index page */
+.feedback-mask,
+.feedback,
+.home-ad-bottom {
+  display: none !important;
 }
 
-.headerC {
-  display: block !important;
-}
 
-.header {
-  top: 0 !important;
-}
-
-#layout {
-  margin-top: 110px !important;
-}
-
-#main_box {
-  width: 100% !important;
-}
-
-#dict_main {
-  width: 840px !important;
-}
-
-.up, .down {
-  margin-right: 5px !important;
-}
-
-.header_logo {
-  margin-bottom: 20px;
+/* page */
+.ad-right, 
+#ad-top {
+  display: none !important;
 }
