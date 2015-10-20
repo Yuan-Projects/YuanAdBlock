@@ -11,3 +11,7 @@
 #ad-top {
   display: none !important;
 }
+
+form.search-form {
+  right: 700px !important;
+}
