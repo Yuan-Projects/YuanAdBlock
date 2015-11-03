@@ -27,16 +27,12 @@
 }
 
 /* Top Ad */
-ul[role="navigation"].js-component-component li {
+.hM1,
+#_mail_component_12_12,
+#_mail_component_14_14,
+#_mail_component_16_16,
+#_mail_component_19_19  {
   display: none !important;
-}
-ul[role="navigation"].js-component-component li:first-child ,
-#_mail_component_19_19,
-#_mail_component_22_22,
-#_mail_component_24_24,
-#_mail_component_27_27,
-ul[role="navigation"].js-component-component li:last-child  {
-  display: initial !important;
 }
 
 /* 1 Yuan */
