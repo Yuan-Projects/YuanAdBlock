@@ -13,10 +13,15 @@
 .left_rcm_11_hide,
 .double11,
 .double11-b,
+i.speak-step,
 #ad-top {
   display: none !important;
 }
 
 form.search-form {
   right: 700px !important;
+}
+
+.base-speak i.speak-step {
+  display: inline-block !important;
 }
