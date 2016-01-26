@@ -18,10 +18,6 @@ i.speak-step,
   display: none !important;
 }
 
-form.search-form {
-  right: 700px !important;
-}
-
 .base-speak i.speak-step {
   display: inline-block !important;
 }
