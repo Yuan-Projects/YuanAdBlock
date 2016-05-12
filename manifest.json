@@ -24,7 +24,7 @@
       "all_frames": true
     },
     {
-      "matches": ["http://www.iciba.com/*"],
+      "matches": ["http://*.iciba.com/*"],
       "css": ["iciba.com.css"],
       "all_frames": true
     },
