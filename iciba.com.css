@@ -1,10 +1,7 @@
 /* The index page */
-.feedback-mask,
-.feedback,
-.home-ad-bottom {
+.pc-broad {
   display: none !important;
 }
-
 
 /* page */
 .ad-right, 
