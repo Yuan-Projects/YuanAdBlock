@@ -13,3 +13,11 @@ a[href^="https://www.sogou.com/sogou"],
 .info-hotwords {
   display: none !important;
 }
+
+/* word.iciba.com */
+/* 头部广告 */
+.h_ad,
+/* 下载链接 */
+#iciba_common_top_popularize {
+  display: none !important;
+}
