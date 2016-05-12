@@ -4,17 +4,12 @@
 }
 
 /* page */
-.ad-right, 
-#taobao_left_rcm_11,
-.pc-entry,
-.left_rcm_11_hide,
-.double11,
-.double11-b,
-i.speak-step,
-#ad-top {
-  display: none !important;
-}
 
-.base-speak i.speak-step {
-  display: inline-block !important;
+a[href^="http://hoplink.ksosoft.com"],
+a[href^="https://www.sogou.com/sogou"],
+/* 产品下载 */
+.info-product,
+/* 今日热词，热门搜索 */
+.info-hotwords {
+  display: none !important;
 }
