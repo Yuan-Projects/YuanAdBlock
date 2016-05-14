@@ -9,6 +9,8 @@ a[href^="http://hoplink.ksosoft.com"],
 a[href^="https://www.sogou.com/sogou"],
 /* 产品下载 */
 .info-product,
+/* Download Mask */
+.cb-downmask,
 /* 今日热词，热门搜索 */
 .info-hotwords {
   display: none !important;
@@ -19,5 +21,12 @@ a[href^="https://www.sogou.com/sogou"],
 .h_ad,
 /* 下载链接 */
 #iciba_common_top_popularize {
+  display: none !important;
+}
+
+/* dj.iciba.com */
+
+/* Ads bar on the right */
+#content .side{
   display: none !important;
 }
