@@ -46,6 +46,9 @@ chrome.webRequest.onBeforeRequest.addListener(
 
       // CNZZ 
       "http://*.cnzz.com/z_stat.php*",
+
+      // Youdao 
+      "http://impservice.dictapp.youdao.com/imp/request.s?*",
     ]
   },
   ["blocking"]
