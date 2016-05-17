@@ -42,6 +42,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://ping.chartbeat.net/ping?*",
       "http://sa.bbc.co.uk/bbc/bbc/s?*",
       "http://static.chartbeat.com/js/chartbeat.js",
+      "http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
 
       // CNZZ 
       "http://*.cnzz.com/z_stat.php*",
