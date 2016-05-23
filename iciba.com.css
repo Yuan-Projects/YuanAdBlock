@@ -13,6 +13,8 @@ a[href^="https://www.sogou.com/sogou"],
 .info-product,
 /* Download Mask */
 .cb-downmask,
+/* Play icon */
+i.speak-step,
 /* 今日热词，热门搜索 */
 .info-hotwords {
   display: none !important;
