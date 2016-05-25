@@ -32,6 +32,8 @@ chrome.webRequest.onBeforeRequest.addListener(
 
       // Google 
       "http://partner.googleadservices.com/gpt/*",
+      "http://static.googleadsserving.cn/*",
+      "http://pagead2.googlesyndication.com/pagead/show_ads.js",
 
       "http://b.scorecardresearch.com/*",
       "http://beacon.krxd.net/*",
