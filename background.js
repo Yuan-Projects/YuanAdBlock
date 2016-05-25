@@ -29,6 +29,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://hotvrs.js.tv.itc.cn/videoinfo/*",
       "http://v.aty.sohu.com/vp?*",
       "http://search.vrs.tv.sohu.com/p?*",
+      "http://dup.baidustatic.com/js/os.js",
+      "http://cpro.baidustatic.com/cpro/ui/i.js",
 
       // Google 
       "http://partner.googleadservices.com/gpt/*",
