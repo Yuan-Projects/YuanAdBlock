@@ -53,6 +53,9 @@ chrome.webRequest.onBeforeRequest.addListener(
 
       // Youdao 
       "http://impservice.dictapp.youdao.com/imp/request.s?*",
+
+
+      "http://n.cosbot.cn/rb/i.js",
     ]
   },
   ["blocking"]
