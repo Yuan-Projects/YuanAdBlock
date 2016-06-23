@@ -69,6 +69,11 @@
       "all_frames": true
     },
     {
+      "matches": ["http://*.cambridge.org/*"],
+      "css": ["cambridge.org.css"],
+      "all_frames": true
+    },
+    {
       "matches": ["http://dict.youdao.com/*"],
       "css": ["dict.youdao.com.css"],
       "all_frames": true
