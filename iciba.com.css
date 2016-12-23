@@ -8,6 +8,7 @@
 
 a[href^="http://hoplink.ksosoft.com"],
 a[href^="https://www.sogou.com/sogou"],
+a[href^="http://edu.wps.cn"],
 /* Google Ad */
 .cb-result-googlead,
 /* 产品下载 */
@@ -16,6 +17,9 @@ a[href^="https://www.sogou.com/sogou"],
 .cb-downmask,
 /* Play icon */
 i.speak-step,
+/* Top AD */
+.search-ad,
+.container-right-ad2,
 /* 今日热词，热门搜索 */
 .info-hotwords {
   display: none !important;
