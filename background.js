@@ -2,11 +2,15 @@ chrome.webRequest.onBeforeRequest.addListener(
   function(details) { return {cancel: true}; },
   {
     urls:[
+      // Facebook
+      "https://connect.facebook.net/en_US/fbevents.js",
+      "https://www.facebook.com/tr?*",
+
       // SOHU TV AD
       "http://atanx.alicdn.com/t/tanxssp.js",
       // JD AD
       "http://x.jd.com/exsites?*",
-      // BAIDU 
+      // BAIDU
       "http://hm.baidu.com/hm.js?*",
       "http://hm.baidu.com/hm.gif?*",
       "http://eclick.baidu.com/fp.htm?*",
@@ -32,8 +36,11 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://dup.baidustatic.com/js/os.js",
       "http://cpro.baidustatic.com/cpro/ui/i.js",
 
-      // Google 
+      // Google
+      "http://www.google-analytics.com/analytics.js",
+      "https://www.google-analytics.com/analytics.js",
       "http://partner.googleadservices.com/gpt/*",
+      "http://www.googletagservices.com/tag/js/gpt.js",
       "http://static.googleadsserving.cn/*",
       "http://pagead2.googlesyndication.com/pagead/show_ads.js",
 
@@ -48,14 +55,24 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://static.chartbeat.com/js/chartbeat.js",
       "http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
 
-      // CNZZ 
+      // CNZZ
       "http://*.cnzz.com/z_stat.php*",
 
-      // Youdao 
+      // Youdao
       "http://impservice.dictapp.youdao.com/imp/request.s?*",
 
 
       "http://n.cosbot.cn/rb/i.js",
+      "http://dictionary.cambridge.org/js/ads.js?*",
+      "http://dictionary.cambridge.org/notification/notifications.js?*",
+      "http://ap.lijit.com/*",
+      "http://adserver.adtech.de/*",
+      "http://adserver-us.adtech.advertising.com/*",
+      "http://ib.adnxs.com/*",
+      "http://as.casalemedia.com/*",
+      "http://c.t.dps-reach.com/*",
+      "http://p.t.dps-reach.com/js/p.js",
+      "http://tag-st.contextweb.com/getjs.static.js"
     ]
   },
   ["blocking"]
