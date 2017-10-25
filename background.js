@@ -40,7 +40,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://www.google-analytics.com/analytics.js",
       "https://www.google-analytics.com/analytics.js",
       "http://partner.googleadservices.com/gpt/*",
-      "http://www.googletagservices.com/tag/js/gpt.js",
+      "*://www.googletagservices.com/tag/js/gpt.js",
       "http://static.googleadsserving.cn/*",
       "http://pagead2.googlesyndication.com/pagead/show_ads.js",
 
@@ -62,17 +62,16 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://impservice.dictapp.youdao.com/imp/request.s?*",
 
 
-      "http://n.cosbot.cn/rb/i.js",
-      "http://dictionary.cambridge.org/js/ads.js?*",
-      "http://dictionary.cambridge.org/notification/notifications.js?*",
-      "http://ap.lijit.com/*",
-      "http://adserver.adtech.de/*",
-      "http://adserver-us.adtech.advertising.com/*",
-      "http://ib.adnxs.com/*",
-      "http://as.casalemedia.com/*",
-      "http://c.t.dps-reach.com/*",
-      "http://p.t.dps-reach.com/js/p.js",
-      "http://tag-st.contextweb.com/getjs.static.js"
+      "*://n.cosbot.cn/rb/i.js",
+      "*://dictionary.cambridge.org/js/ads.js?*",
+      "*://dictionary.cambridge.org/notification/notifications.js?*",
+      "*://*.lijit.com/*",
+      "*://adserver.adtech.de/*",
+      "*://adserver-us.adtech.advertising.com/*",
+      "*://ib.adnxs.com/*",
+      "*://*.casalemedia.com/*",
+      "*://*.dps-reach.com/*",
+      "*://tag-st.contextweb.com/getjs.static.js"
     ]
   },
   ["blocking"]
