@@ -37,6 +37,7 @@ chrome.webRequest.onBeforeRequest.addListener(
       "http://cpro.baidustatic.com/cpro/ui/i.js",
 
       // Google
+      "https://www.googleadservices.com/pagead/conversion_async.js",
       "http://www.google-analytics.com/analytics.js",
       "https://www.google-analytics.com/analytics.js",
       "http://partner.googleadservices.com/gpt/*",
