@@ -20,6 +20,11 @@
 
   "content_scripts": [
     {
+      "matches": ["http://*.kekenet.com/*"],
+      "css": ["css/kekenet.css"],
+      "all_frames": true
+    },
+    {
       "matches": ["http://mail.163.com/*"],
       "css": ["mail.163.com.css"],
       "all_frames": true
