@@ -75,7 +75,7 @@
       "all_frames": true
     },
     {
-      "matches": ["http://*.cambridge.org/*"],
+      "matches": ["*://*.cambridge.org/*"],
       "css": ["cambridge.org.css"],
       "all_frames": true
     },
